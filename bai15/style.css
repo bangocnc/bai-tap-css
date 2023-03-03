@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b2a49;
+}
+
+.danh_sach {
+    position: relative;
+}
+.danh_sach h1 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.danh_sach ul {
+    position: relative;
+}
+.danh_sach ul li {
+    position: relative;
+    left: 0;
+    color: #999;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #bada55;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.danh_sach ul li span {
+    position: relative;
+    padding: 8px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+}
+.danh_sach ul li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #bada55;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+.danh_sach ul li:hover::before {
+    transform: scaleX(1);
+}
+.danh_sach ul li:hover {
+    left: 10px;
+}
+.danh_sach ul li:hover span {
+    color: #fff;
+}
+

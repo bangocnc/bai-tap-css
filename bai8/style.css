@@ -1,0 +1,19 @@
+.hieu_ung_chuyen_dong {
+    background-image: -webkit-linear-gradient(LightSkyBlue 50%, LightGreen 50%);
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+    font-size: 60px
+}
+@-webkit-keyframes stripes {
+    100% {
+        background-position: 0 -50px;
+    }
+}
+@keyframes stripes {
+    100% {
+        background-position: 0 -50px;
+    }
+}

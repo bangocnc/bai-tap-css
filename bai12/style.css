@@ -1,0 +1,204 @@
+div{
+    margin: 100px;
+    display: inline-block;
+}
+
+.hinh_tron {
+    width: 100px;
+    height: 100px;
+    background: #1E90FF;
+    border-radius: 50%
+}
+.hinh_binh_hanh {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: #1E90FF;
+}
+.hinh_thang {
+    border-bottom: 50px solid #1E90FF;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+}
+.hinh_tam_giac {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #1E90FF;
+}
+.hinh_ngoi_sao {
+    width: 0;
+    height: 0;
+    margin: 50px 0;
+    color: #1E90FF;
+    position: relative;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #1E90FF;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+.hinh_ngoi_sao:before {
+    height: 0;
+    width: 0;
+    position: absolute;
+    display: block;
+    top: -45px;
+    left: -65px;
+    border-bottom: 80px solid #1E90FF;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: '';
+    transform: rotate(-35deg);
+}
+.hinh_ngoi_sao:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    color: #1E90FF;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #1E90FF;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+}
+.hinh_trai_tim {
+    position: relative;
+}
+.hinh_trai_tim:before, .hinh_trai_tim:after {
+    content: "";
+    width: 70px;
+    height: 115px;
+    position: absolute;
+    background: #1E90FF;
+    left: 70px;
+    top: 0;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.hinh_trai_tim:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+.bieu_tuong_vo_cuc {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+}
+.bieu_tuong_vo_cuc:before,
+.bieu_tuong_vo_cuc:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid #1E90FF;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+}
+.bieu_tuong_vo_cuc:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+}
+.hinh_5_canh {
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #1E90FF transparent;
+}
+.hinh_5_canh:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #1E90FF;
+}
+.hinh_6_canh {
+    width: 100px;
+    height: 57.735px;
+    background: #1E90FF;
+    position: relative;
+}
+.hinh_6_canh::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid #1E90FF;
+}
+.hinh_6_canh::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid #1E90FF;
+}
+.hinh_8_canh {
+    width: 100px;
+    height: 100px;
+    background: #1E90FF;
+    position: relative;
+}
+.hinh_8_canh:before {
+    content: "";
+    width: 42px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid #1E90FF;
+    border-left: 29px solid #f4f4f4;
+    border-right: 29px solid #f4f4f4;
+}
+.hinh_8_canh:after {
+    content: "";
+    width: 42px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid #1E90FF;
+    border-left: 29px solid #f4f4f4;
+    border-right: 29px solid #f4f4f4;
+}
+.hinh_qua_trung {
+    display: block;
+    width: 126px;
+    height: 180px;
+    background-color: #1E90FF;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.hinh_oval {
+    width: 200px;
+    height: 100px;
+    background: #1E90FF;
+    border-radius: 100px / 50px;
+}
+

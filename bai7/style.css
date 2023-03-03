@@ -1,0 +1,10 @@
+#noi_dung {
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}
+/* #noi_dung {
+    font-size: 40px;
+    filter: blur(3px);
+    -webkit-filter: blur(4px);
+} */

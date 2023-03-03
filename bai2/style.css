@@ -1,0 +1,20 @@
+input {
+    border: 1px solid CornflowerBlue;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    margin: 6px;
+}
+
+    /*căn chỉnh placeholder*/
+input[type="email"]::placeholder {
+    text-align: center;
+}
+
+input[type="text"]::placeholder {
+    text-align: right;
+}
+
+input[type="tel"]::placeholder {
+    text-align: left;
+}
